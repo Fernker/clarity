@@ -41,9 +41,9 @@ export class Popover {
     // Browsers don't agree with what to do if some of these are not specified, so we set them all to be safe.
     element.style.position = POSITION_ABSOLUTE;
     element.style.top = 0;
-    element.style.bottom = 'auto';
+    element.style.bottom = OVERFLOW_AUTO;
     element.style.left = 0;
-    element.style.right = 'auto';
+    element.style.right = OVERFLOW_AUTO;
   }
 
   // TODO: need a way to account for parameters that change dynamically (positioning).
